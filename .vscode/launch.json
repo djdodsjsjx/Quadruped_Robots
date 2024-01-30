@@ -1,0 +1,22 @@
+{
+    //调试
+    "version": "0.2.0",
+    "configurations": [
+
+        
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/${workspaceFolderBasename}.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            
+            "servertype": "openocd",       //使用的GDB Server
+            "configFiles": [                  
+                "E:/Clion/openocd-20210503/OpenOCD-20210503-0.11.0/share/openocd/scripts/interface/cmsis-dap.cfg",
+                "E:/Clion/openocd-20210503/OpenOCD-20210503-0.11.0/share/openocd/scripts/target/stm32f1x.cfg"
+            ],
+            "preLaunchTask": "build"
+        }
+    ]
+}
