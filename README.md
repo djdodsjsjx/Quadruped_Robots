@@ -1,5 +1,7 @@
 # Attitude Control and Trajectory for Quadruped Robots
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+ 
 This project integrates sophisticated foot trajectory and attitude control methodologies with classical PID control algorithms, enabling active and adaptive attitude adjustment for the robot on uneven slopes. This is primarily achieved by shifting the robot's center of mass and adjusting its body's posture angles.
 
 ![Alt text](assets/image.png)
